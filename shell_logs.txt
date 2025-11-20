@@ -1,0 +1,25 @@
+q
+run -f testcases/single_new
+bt
+b find_news
+run
+n
+p node
+p *node
+p **node
+n
+n
+p *itr
+n
+p *follow
+n
+q
+run -f testcases/single_new
+bt
+q
+run -f testcases/single_new
+bt
+q
+run -f testcases/single_new
+bt
+q
